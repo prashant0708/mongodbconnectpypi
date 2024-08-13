@@ -7,7 +7,7 @@ HYPEN_E_DOT ="-e."
 with open('README.md', 'r', encoding='utf-8') as f:
     long_description = f.read()    
     
-def get_requirements(file_path:str)->list[str] :
+def get_requirements(file_path:str):
   requirements=[]
   with open(file_path) as f:
     requirements=f.readlines()
@@ -15,6 +15,7 @@ def get_requirements(file_path:str)->list[str] :
     if HYPEN_E_DOT in requirements:
       requirements.remove(HYPEN_E_DOT)
   return requirements
+
    
 
 __version__ = "0.0.1"
