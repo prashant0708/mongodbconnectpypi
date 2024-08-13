@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 from typing import List 
-import os
+from util import *
 
-ROOT_DIR=os.getcwd()
+
 file_name='requirements_dev.txt'
 file_path=os.path.join(ROOT_DIR,file_name)
 
