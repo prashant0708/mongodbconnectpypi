@@ -1,17 +1,12 @@
 from setuptools import setup, find_packages
 from typing import List 
-from util import *
 
 
+"""
+HYPEN_E_DOT ="-e."
 file_name='requirements_dev.txt'
 file_path=os.path.join(ROOT_DIR,file_name)
 
-HYPEN_E_DOT ="-e."
-
-
-with open('README.md', 'r', encoding='utf-8') as f:
-    long_description = f.read()    
-    
 def get_requirements(file_path:str):
   requirements=[]
   with open(file_path) as f:
@@ -20,6 +15,15 @@ def get_requirements(file_path:str):
     if HYPEN_E_DOT in requirements:
       requirements.remove(HYPEN_E_DOT)
   return requirements
+"""
+
+
+
+
+with open('README.md', 'r', encoding='utf-8') as f:
+    long_description = f.read()    
+    
+
 
    
 
@@ -43,5 +47,4 @@ setup(
     },
     package_dir={"": "src"},
     packages=find_packages(where="src"),
-    install_requires=get_requirements(file_path),
     )
