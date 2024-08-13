@@ -1,0 +1,17 @@
+pymongo
+pymongo[srv]
+dnspython
+pandas
+numpy
+ensure
+
+
+# dev requirements -
+
+pytest==7.1.3 ## it is for testing and only required in the development side
+tox==3.25.1 ## using the tox , can create testing enviroment
+black==22.8.0
+flake8==5.0.4
+mypy==0.971
+
+-e .
