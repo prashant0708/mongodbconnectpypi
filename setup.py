@@ -1,5 +1,10 @@
 from setuptools import setup, find_packages
-from typing import List
+from typing import List 
+import os
+
+ROOT_DIR=os.getcwd()
+file_name='requirements_dev.txt'
+file_path=os.path.join(ROOT_DIR,file_name)
 
 HYPEN_E_DOT ="-e."
 
@@ -38,5 +43,5 @@ setup(
     },
     package_dir={"": "src"},
     packages=find_packages(where="src"),
-    install_requires=get_requirements("./requirements_dev.txt"),
+    install_requires=get_requirements(file_path),
     )
