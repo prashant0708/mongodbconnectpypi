@@ -20,8 +20,7 @@ def get_requirements(file_path:str):
 
 
 
-with open('README.md', 'r', encoding='utf-8') as f:
-    long_descriptions = f.read()    
+long_descriptions="This package is build to automate the Mongodb CRUD operation"   
     
 
 
