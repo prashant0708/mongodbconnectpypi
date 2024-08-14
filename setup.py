@@ -28,7 +28,7 @@ long_descriptions="This package is build to automate the Mongodb CRUD operation"
 
 __version__ = "0.0.1"
 REPO_NAME = "mongodbconnectorpkg"
-PKG_NAME= "databaseautomation"
+PKG_NAME= "mongodbautomationpackage"
 AUTHOR_USER_NAME = "prashant0708"
 AUTHOR_EMAIL = "prashantsingh.aiengineer@gmail.com"
 
