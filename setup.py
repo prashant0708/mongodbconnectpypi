@@ -21,7 +21,7 @@ def get_requirements(file_path:str):
 
 
 with open('README.md', 'r', encoding='utf-8') as f:
-    long_description = f.read()    
+    long_descriptions = f.read()    
     
 
 
@@ -39,7 +39,7 @@ setup(
     author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
     description="A python package for connecting with database.",
-    long_description=long_description,
+    long_description=long_descriptions,
     long_description_content="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
     project_urls={

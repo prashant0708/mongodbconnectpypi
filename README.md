@@ -33,12 +33,12 @@ and installation of a Python project.
 
 # Testing the python application
 
-_type of testing_
+type of testing
 
 1. Manual Testing
 2. Automation Testing
 
-_Mode of Testing_
+Mode of Testing
 
 1. Unit Testing
 2. Integrated Testing
